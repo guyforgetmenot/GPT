@@ -1,0 +1,606 @@
+WordPress SEO: the definitive guide
+
+1 June 2022 | Tags Content SEO, Google Analytics, Mobile SEO, Security, Site Speed, Site structure, Technical SEO, WordPress, Yoast SEO
+ 
+A tutorial to higher rankings for WordPress sites
+
+This is the original WordPress SEO article since 2008, fully updated for 2022!
+
+WordPress is one of the best content management systems for SEO. But even though it gets a lot right “out of the box,” there’s much more that you can do to improve your performance. It’s time to focus on WordPress SEO!
+
+Optimizing your site using the tactics and best practices outlined in this article will help you improve your rankings, gain more subscribers or sales, and have a better website.
+
+Because you should ingrain proper SEO in all aspects of your online marketing and PR, this guide covers quite a lot of ground! It’s a long read, so feel free to use the table of contents below to jump around.
+
+Before we start…
+
+This article assumes that you’re using our Yoast SEO plugin, which adds more features and SEO tools to WordPress. If you’re not already using it, you can set it up right away with our beginner’s guide to Yoast SEO. Please check out the Yoast SEO for Shopify app if you are running a Shopify online store.
+
+Read more: How much does Yoast SEO cost? »
+
+Most of the principles will still apply if you’re using another SEO plugin. Of course, we’d prefer you to switch over and use our powerful WordPress SEO plugin, which is why we’ve written a migration guide for you. It’s a straightforward process!
+
+Table of contents
+
+Get your basic WordPress SEO right
+Optimize your content
+Optimize your site structure
+Speed up your WordPress website
+Secure your WordPress website
+Cater to your mobile visitors
+Analyze and improve your performance
+Promote your site
+Conclusions
+Get your basic WordPress SEO right
+
+Want to learn how to build your own WordPress site?
+
+We have an epic article on that — including hours of video. Find out how to make a WordPress website.
+
+Out of the box, WordPress is a pretty well-optimized content management system. A basic setup can provide a strong foundation without extensive customization, theme optimization, and plugins. Beginners can get started pretty quickly with WordPress SEO. That said, you can do a few things with WordPress SEO to increase your chances of ranking, refine your workflow, and make sure your website is perfectly optimized.
+
+By putting the correct basic settings in place and applying a few simple techniques, you can ensure that you have a solid foundation to build upon!
+
+1.1. Check your site health
+
+Before you make any changes to your site, it is good to see where you are now. There’s a lot to gain from getting it right: running your website on a server with updated software at a web host that offers excellent performance. So ask yourself: on what hardware and software are your sites running? What is your hosting plan? Are you using a budget shared hosting provider, or have you invested in a dedicated hosting plan at a well-known web host that fine-tuned its servers with WordPress?
+
+To find out what’s going on behind the scenes of your site, you can visit the Site Health section in WordPress. Also, you could choose to install the Health Check plugin. This plugin gives you loads of technical insights and helps you get information that outside parties can use to help you improve your site. Eventually, all features of the Health Check plugin will move to WordPress core.
+
+
+Site Health gives you an overview of how your site is doing
+1.1.1 Check you’re using suitable hosting
+
+According to WordPress’s technical requirements page, the recommended hosting plan to run WordPress should include a modern version of PHP, MySQL or MariaDB, and HTTPS support. It is possible to work with older server software, but that is not recommended. If you check your Site Health, you can see the technical details of your installation. In addition, if you open your hosting provider’s dashboard, you should be able to see what type of plan you are on.
+
+Remember, paying for good WordPress hosting pays dividends. Upgrading your hosting plan is one of the easiest improvements you can make.
+
+1.1.2. Upgrade to a recent version of PHP
+
+While the numbers are going down quickly, many WordPress sites still run on outdated versions of PHP. One look at the WordPress stats reveals that some sites still run on a PHP version in the five series, while PHP 8.0 and up have been available for years. These old PHP versions don’t receive any more security fixes and are thus increasingly vulnerable to attacks.
+
+Luckily, the WordPress team has dropped support for anything older than PHP 5.6.20. Today, the project recommends running WordPress on at least PHP 7.4.
+
+So, one of the most important things you can do to improve the performance and security of your site — and thus, your WordPress SEO –, is to upgrade your hosting environment to a modern version of PHP. There are a lot of benefits to this:
+
+PHP 7+ offers an incredible speed boost.
+It runs a lot more efficiently, meaning less stress on your server.
+Bring loads of modern development features.
+It’s a much safer and more secure environment.
+It’s future-proof.
+Now, this is something we all want. If you’ve checked your current hosting set-up in the previous section, you have an idea of what your site runs on now. If this shows outdated server software like PHP 5.5, it is good to update this. However, take special care before doing so. Ask for help if you’re not sure what you are doing — especially if you are a beginner working on your WordPress SEO.
+
+Here are some steps to take:
+
+(Always!) Back up your website.
+Make a local staging environment based on a modern version of PHP.
+Install the backup of your site on that server.
+Test thoroughly to see if everything works properly.
+Upgrade your live site — most of the time, your hosting provider can do this for you.
+We have a post that shows you how to set up a test environment for your WordPress site. WordPress.org has a post on the advantages of updating your PHP version and what to consider when doing that.
+
+1.1.3. Make sure you’re using SSL and HTTPS
+
+Adopting SSL (getting an HTTPS URL and a green padlock icon in the browser URL bar) was an optional tactic in the past. Many sites, arguably, didn’t need the extra level of security that SSL provides.
+
+Today, having a valid SSL certificate installed is mandatory — search engines may ‘penalize’ sites without valid SSL certificates and setups (and/or show warnings next to their search results). Google has mentioned that HTTPS is a ranking signal. In addition, it’s generally good practice for all websites to use SSL to prevent hackers and third parties from intercepting requests and data.
+
+Many modern site speed and performance techniques require a valid SSL/HTTPS setup. To take advantage of faster web technologies like HTTP/2 and the upcoming HTTP/3, browsers like Google Chrome and Firefox need the website to have a valid SSL certificate.
+
+If you want to move to SSL and ensure that your site is served correctly over HTTPS, we have a handy guide with tips & tricks for moving to HTTPS. Since version 5.7, WordPress comes with a basic tool to make the detection of and moving to HTTPS easier.
+
+1.2. Check your site settings
+
+It’s worth spending some time clicking through all of the sections in the WordPress Settings menu, as many of the options there can impact the SEO of your WordPress site.
+
+In particular, it’s worth double-checking your visibility settings in Settings → Reading to ensure that you’re not accidentally preventing search engines from indexing your website. That’d hurt your visibility and your WordPress SEO!
+
+You should also ensure that your Writing and Reading settings are all set correctly; these control your default categories and what should be displayed on your homepage. Don’t forget to give your site a strong tagline in Settings → General!
+
+1.3. Pick the right permalink structure
+
+Your permalink settings define what format your page and post URLs will take, which can significantly impact WordPress SEO. So if you’re creating a new site, one of the first things you should do is change your permalink settings, which you can find in Settings → Permalinks.
+
+If you don’t change your settings from the default, all of your pages and posts will have URLs that look like example.com/?p=123. While this is perfectly okay, it’s not particularly nice, and it might impact how users and search engines perceive the quality and relevance of your pages.
+
+Changing the permalink structure alters your website’s URLs, components, ordering, and structure. Therefore, selecting the correct format when setting up your website is essential, as changing it later can cause SEO issues.
+
+We usually recommend that people use a structure that creates URLs that look like example.com/post-name/, or example.com/category/post-name/, depending on how much importance they anticipate placing on categorizing their content. Choosing either of these options will be perfectly suitable for most WordPress sites.
+
+For the first option, you can just change the permalink setting to /%postname%/, like so:
+
+
+Changing the permalink settings to ‘Post name’, in Settings → Permalinks
+To include the category, you can select “Custom Structure” and change the value to /%category%/%postname%/.
+
+If you previously had ?p=<postid> as your permalink, WordPress will take care of all the redirects for you. This is also true if you change from /%postname%/ to /%category%/%postname%/.
+
+If you have an established site and change from any other permalink structure, you might want to consult our article on changing your WordPress permalink structure and the tool you’ll find.
+
+1.3.1. Choose WWW or non-WWW
+
+It would help if you thought about what you want your site to show as www.example.com, or simply example.com. Make sure that in your general settings, in Settings → General, the version you want to show up is properly reflected:
+
+an example of h
+Setting the site URL to include or omit ‘www’
+From an SEO perspective, there’s little difference either way. Additionally, most hosting and server setups will automatically redirect requests for the ‘wrong’ version to your selected version. That makes this primarily a branding consideration — which approach feels best for your site?
+
+There’s not a massive amount of difference from a technical perspective, either. Some setups might have minor headaches if they omit the ‘www’ component, but these are increasingly rare.
+
+2. Optimize your content
+
+WordPress SEO also means your site should provide the best content on your chosen subject. People are looking for engaging, authoritative articles and trustworthy answers to their questions. Writing high-quality content for your WordPress site begins with your unique ideas or distinctive take on a particular topic. But it also means presenting these ideas in a well-structured and accessible manner. This will help you attract the audience you’re looking for and keep them engaged.
+
+2.1. Research what your users want and need
+
+Curious about the WordPress block editor?
+
+Still haven’t tried the new block editor? Tried, but found it confusing? We’re here to help: our free WordPress block editor course explains everything you need to know!
+
+Before writing your content, you should think about what search terms you want to be found for. Then, you should optimize every page or post for a specific keyphrase.
+
+But how can you determine what keyphrase you want to be found for? To find out, you need to do keyword research. In this process, you should ask yourself questions: what terms do I want to rank for? How realistic is it that I can rank for these terms?
+
+Imagine you have a baking blog, and you’re passionate about sharing your favorite recipes and baking techniques. Optimizing a post for a term like [best cake recipe] isn’t a realistic goal because it’s a very general term. There’s a lot of competition for such general terms. Instead, it would help if you thought about finding your niche. This niche could be [healthy, low-sugar cake recipes] or [French patisserie you can make at home].
+
+Within a niche, you can become an expert. Your expertise enables you to create content that goes beyond that of your competitors. You can go deeper than others or shed light on different angles of the same topic. For this, you’ll want to focus on long-tail keyphrases. For example, a long-tail keyphrase might be [how to make a low-calorie vegan blueberry cheesecake]. A keyphrase like this is more specific and easier to rank for. Also, it’ll be more suitable for your particular niche topic.
+
+Focus on search intent
+
+It’s also essential to think about what your audience wants to achieve by searching for a specific term. This is called search intent. For example, they could be looking for the answer to a particular question, and you can provide the necessary information. Or they might want to buy a specific product that you can offer them. Think about the needs of your visitors and address them by creating content accordingly.
+
+Need a hand doing keyword research properly? Our Keyword research training can help. This course is part of our Yoast SEO academy. You’ll get access to Academy for free once you sign up for Yoast SEO Premium — two essential products for one low price.
+
+2.2. Write great content for your users
+
+After you’ve done your keyword research and know the topics you want to write about, you need to get to the actual writing. Most of the time, that’s easier said than done. To get from an idea to a great piece of content, most likely, you’ll have to follow a cycle of drafting, writing, editing, and rewriting.
+
+Your first draft can be an outline of your structure. You don’t have to write out everything in perfect prose at this point, but make sure that you follow a logical structure. Most pieces will include an introduction, your main points of argument, and a conclusion. Of course, this will vary per genre – a recipe will have a completely different structure.
+
+You can further flesh out the points in the writing phase, where you try to develop a first complete version of your text. Finally, you should check whether your piece is engaging and easy to read in the editing phase. You might be an expert on your topic, but your audience probably isn’t (yet). So try to make your writing as accessible as possible. Readability is essential. The readability analysis in Yoast SEO helps you improve your writing.
+
+Beginners can find writing hard, but there’s help around the corner. When in doubt, it’s always best to ask a friend or colleague for some feedback. Another helpful trick is to read your text out loud to yourself. You can even let your computer speak it. It will give you a better idea of whether everything flows nicely.
+
+2.3. Optimize your individual posts and pages
+
+When writing or editing your post for your WordPress site, you need to pay special attention to some elements to make it SEO-friendly. These elements include your subheadings, your SEO title, and your meta description — all of these need to reflect the topic of the specific post.
+
+Don’t forget, SEO-friendly doesn’t just mean that it’s easy for a search engine to grasp a page’s topic. More importantly, it means that your visitors can get the gist of your page at a single glance.
+
+Your meta description and your SEO title might be a deciding factor for whether visitors click on your page in the search results in the first place. And once they’ve visited your site, elements like subheadings can be critical for visitors to decide whether they want to stay on your site.
+
+2.3.1. Set your focus keyphrase(s)
+
+One important rule is not to use a focus keyphrase on more than one page. Otherwise, you might end up cannibalizing yourself. Most of the time, you don’t want to rank for multiple pages on the same keyphrase because it means that you’re setting yourself up as your competition.
+
+It’s also essential to include the focus keyphrase in crucial elements of your post, such as the SEO title, the introduction, your subheadings, and your meta description. All of these elements are signals for what your post is about. Since your focus keyphrase is, in fact, the main topic of your page, it’s a logical consequence that you should make sure this topic is reflected in all of these elements.
+
+The same logic holds for your text overall: you need to make sure that you don’t stray off-topic; if you stay on-topic, it should follow naturally that you use your keyphrase multiple times throughout your text. But avoid stuffing your writing with your keyphrase. If you find it hard to include your keyphrase in your text a sufficient number of times, it might be a sign that you should take a different approach to the topic.
+
+To avoid repetition, you can use synonyms and related keyphrases. Synonyms mean the same or more or less the same as your keyphrase. An example of this is the words film and movie. Search engines will recognize that they have the same meaning, which you can also check by looking at the search results: if you search for movie, film will also be highlighted in the results, and vice versa.
+
+You can also use related keyphrases to optimize a single page for similar, related terms. You can use these to give context to your keyphrase. For example, if your keyphrase is [pumpkin soup], your related keyphrase might be [winter weeknight dinners]. This second, broader term gives additional information about your topic. It can also create coherence by establishing a link to similar pages on your post.
+
+The Yoast SEO Premium analysis makes it easier to optimize your post thanks to word forms, synonyms, and related keyphrases. Not only that, but Yoast SEO also comes with a Semrush integration that helps you find related keyphrases — including volume and trend data.
+
+how to find related keyphrases with Semrush in Yoast SEO for WordPress
+The related keyphrase feature is powered by Semrush data and can help you do keyword research
+2.3.2. Optimize your permalink
+
+In most cases, your post’s URL should probably contain your focus keyphrase so that it’s obvious what your page is about from the link. You should always try and keep your permalinks short, descriptive, and clean — don’t put unnecessary words in for the sake of it!
+
+Before you publish new posts or pages, you may also wish to consider removing ‘function words‘ from your permalink. These are words like “a”, “and”, and “the”. This may make your permalinks more readable and easier to use or link to when done carefully. Posts with incredibly long titles may benefit from this approach.
+
+We recommend being careful when changing permalinks for posts you have already published. If people have already linked to your pages, changing the URLs may make a mess. Even though WordPress will sometimes redirect users to the new location (the redirect manager in Yoast SEO Premium handles this automatically and more reliably), changing URLs can impact performance.
+
+2.3.3. Optimize your page title
+
+Each page’s title — the contents of the HTML <title> tag — can be one of the most critical factors for ranking well in search results. Not only is it the literal title of the tab or browser window, but it’s also the first line people see in the search results. It describes what your page is or is about and acts as an advert that encourages users to click.
+
+On many websites, the default structure for posts and pages isn’t necessarily the most optimal approach for SEO. An title like “My blog » Cooking » Carbonara recipe” isn’t as compelling as “My 20-minute delicious carbonara recipe | My Blog”.
+
+You must think about the structure of your titles and the content of the title on each page. Typically, it’s worth considering that:
+
+Search engines may put more weight on the early words, so getting your keywords near the start of the title might make you more likely to rank well.
+People scanning result pages see the early words first. If your keywords are at the start of your listing, your page is more likely to get clicked on.
+Keep in mind that search engines can rewrite things like SEO titles and meta descriptions if they think they can better describe your content.
+
+For more info on how to create enticing titles for your posts, read our article on crafting good titles for SEO.
+
+
+The Google Preview in Yoast SEO gives you an idea of how your post will look in search engines. Use it to make your content stand out!
+Did you know? You can use Yoast SEO to structure your SEO titles! You can control the default structure of your page titles and descriptions in your Yoast SEO plugin. There are two parts of the plugin that control these. First, as soon as you install and activate the plugin, you get a ‘Yoast SEO’ section in your WordPress admin.
+
+Navigate to the Yoast SEO settings, and click on one of the Content Types or Categories and Tags. You can set a so-called Title Template and meta description templates for each post type and taxonomy. For example, for posts on our site, this looks like this:
+
+
+You can set templates in the Yoast SEO settings
+This allows you to use components and variables to control how your page titles should behave by default. Of course, these can be overridden on a page-by-page basis. For example, in the image above, you can see how we’re automatically grabbing elements like the page’s title to stop us from manually writing titles from scratch for every page.
+
+You can use all sorts of variables in the SEO titles and meta description, and they’re all listed and explained in the help tab on the page.
+
+For advanced users, there are some additional cool features. For instance, you can use cf_<custom field name> to drop in any custom field — either from a post meta value or a user meta value.
+
+NOTE: When you use these templates, check that your title tags behave as expected when viewed on the site. If they don’t, you may have a problem with how your theme is built, and you might need to check the “Force rewrite” checkbox in our options. You can also follow these instructions to modify your templates.
+
+2.3.4. Use headings correctly
+
+Headings are great for structuring your content and helping readers process information in bite-sized chunks. They can also help describe a page’s layout and focus on search engines.
+
+WordPress transforms the headings you put in your content into their respective HTML tags (<h1>, <h2>, <h3> and so on). That makes it important to consider which type of headings you use and in which order. Getting that wrong can make your content harder to understand.
+
+Although most themes for WordPress get the basics right, it’s worth making sure that your template sets your post title is an <h1> tag, and that you’re not using <h1> tags anywhere else on your page or in your post content. Your post content should then ‘flow’ naturally; for example, large, significant headings should use <h2> tags, subsections should use <h3> tags, and then subsequent new sections should use <h2>.
+
+check the heading structure with the block editor
+The block editor has a Document Outline feature that gives you an overview of the heading structure
+Please read this article on headings and SEO to learn why proper titles are essential. In addition, you can read our article about the heading structure for your blog — from which a lot applies to non-blog WordPress sites.
+
+2.3.5. Optimize your meta description
+
+We don’t recommend automated descriptions
+
+Some themes and plugins try to produce descriptions automatically, by taking the first sentence or so of a post. This is a clever shortcut, but it rarely produces good descriptions. The first sentence of a post is often introductory information, which doesn’t provide a great summary or an enticing advert!
+
+The only well-written description is a handwritten one, and if you’re thinking of auto-generating the meta description, you might as well not do anything, and let the search engine pick and control the snippet.
+
+NOTE: Search engines may choose to ignore your meta description if they think that it’s unsuitable for the page, or they might choose to show a custom description from the page content if they think it’s a better fit. There’s no way of forcing them to use your specific snippet.
+
+Search engines primarily use a meta description to describe your page in the search engine results, usually below your page title. Tailoring and writing a descriptive meta description can encourage users to click your results in the search engine, even if you’re not necessarily ranking in the top position. It’s an advert and your opportunity to impress.
+
+Writing compelling, informative descriptions of your page content for every page on your site is best practice and allows you to attract more visits. While it might feel like a lot of work to craft descriptions for every page and post, it’s worth the effort.
+
+If you don’t provide a meta description, the search engine will generally try to find the keyword searched for on your page and automatically pick a string around that — and highlight the searched phrase in bold on the results page. In some cases, Google will generate its meta description for you.
+
+Automatically generated snippets (whether by plugins or search engines) are rarely as descriptive or as compelling as hand-written ones. We recommend using the meta description field in the Yoast SEO plugin to write a meta description. Make sure it entices the reader to click through and make sure that it contains the focus keyword of your post or page at least once.
+
+2.3.6. Optimize your images and media
+
+An often overlooked part of WordPress SEO is handling your images, videos, and media content. To ensure that search engines can understand your images, you need to think about how you name and format your files. Make sure to pick the correct format and optimize every image. Also, try to see if you can use next-gen image formats like WebP — which WordPress is starting to support. Writing descriptive accessible text descriptions helps to make your images more understandable and can improve your performance significantly. As an added benefit, you’re also helping readers who rely on assistive technologies like screen readers.
+
+Using the proper alt attributes for images and transcripts of videos are also something that we check in the content analysis functionality of our Yoast SEO plugin. We have a longer article on image SEO and one writing alt tags, which can give you more tips to fine-tune your image optimization!
+
+2.4. Maintain your content quality
+
+2.4.1 Keep your content fresh and up to date
+
+As Google strives to show its users the best and most up-to-date information, you should keep track of your content and revise it regularly because you don’t want to show your website visitors outdated, redundant or incorrect information.
+
+This is easier said than done if you publish regularly and have hundreds or thousands of blog posts. That’s why we’d advise focusing on two specific areas for content maintenance: updating cornerstone content and preventing keyword cannibalization.
+
+2.4.2. Update your cornerstone content
+
+Some pages on your site are more important than others. The most valuable content of your site is called cornerstone content. We’ve written extensively about cornerstone articles and how they can improve your rankings.
+
+In short, these posts or pages:
+
+contain essential information for your audience;
+are complete, up-to-date, and well-written;
+show authority;
+get the most links from related posts within your site;
+rank higher than your other articles on the same topic;
+get the most organic traffic to your site.
+Always prioritize your cornerstone content when you doubt where to start updating your site’s content. Your business relies on them, and they should never go stale!
+
+2.4.3. No outdated cornerstones with Yoast SEO
+
+Yoast SEO makes it a little easier to keep your cornerstones up to date. You can mark a post as a cornerstone article if you use Yoast SEO on your site. In doing so, these articles will undergo a more rigorous SEO analysis. In addition, they’ll appear in a separate list in your post overview, which makes it easy to browse through them and check if they’re still up to scratch.
+
+Keeping track of them is even easier if you’re on Yoast SEO Premium. The Stale cornerstone content filter only shows your cornerstone articles that haven’t been updated in the last six months. You’ll find this filter in your post overview. If it doesn’t show any posts, you’re good, and if there are one or more posts in it, make sure you check and update them!
+
+
+Yoast SEO Premium keeps track of your cornerstone content and warns when they go stale
+2.4.4. Keyword cannibalization
+
+Keyword cannibalization means you’re eating away your rankings by creating too many articles for the same or similar keywords. For example, if you have a dozen articles on the same topic, search engines don’t know which one they should rank highest. As a result, you’ll compete with your articles for a high position in the search engines.
+
+If you frequently publish, as we do at Yoast, you’re bound to run into keyword cannibalization issues someday. That’s why we’ve created a framework for dealing with keyword cannibalism. In short, you’ll have to:
+
+Find out for which keywords it’s happening;
+Analyze which content performs best for those keywords;
+Keep the best-performing posts;
+Decide if you should merge the other posts into the better-performing one;
+Or delete and redirect them.
+Check out this detailed guide on how to fix keyword cannibilization issues on your site to learn how to go about this.
+
+2.5. Avoid accidental duplicate content
+
+2.5.1. What is duplicate content?
+
+Duplicate content issues arise when search engines encounter multiple URLs with the same or very similar content. As a result, search engines don’t know which URLs to rank higher, resulting in lower rankings.  
+
+In the previous section, we’ve already addressed keyword cannibalization caused by writing about the same topic too often. But most of the time, the root of duplicate content is technical and can happen without you even noticing. For instance, some content management systems add session IDs or parameters for tracking URLs. Or, you might have indexed www and non-www versions of a particular page. Accordingly, you’ll have multiple URLs showing the same content.
+
+Besides the technical reasons, your articles can get scraped or copied by other parties. So, there are many causes for duplicate content, as you can read in this extensive article on duplicate content.
+
+If you want to find out if your site suffers from duplicate content, you can use these duplicate content tools to check your site for issues.
+
+2.5.2. Solutions for duplicate content
+
+How you should solve your duplicate content issue depends on the cause of the problem. In general, there are three ways to go about this — in order of preference:
+
+Whenever possible, avoid creating duplicate content. If your system creates session IDs in the URL, try to turn that off.
+Can’t avoid creating them? Redirect those URLs with a 301 to the original version.
+Need to keep a duplicate article? Make sure to add a canonical link to the original version in the <head> section of the duplicate article. It will show search engines what the original version of the article is to pass the link juice on to the original version. In the next section, you’ll find out how easy this is with Yoast SEO.
+If you want to learn how to solve specific duplicate content issues, check out Joost’s ultimate guide on causes and solutions for duplicate content.
+
+2.5.3. Set a canonical link with Yoast SEO
+
+With Yoast SEO, adding a canonical link to a post or page is easy. No need for a developer! Go to the Advanced tab in the Yoast SEO meta box below your post or page or the sidebar of the block editor. There, you’ll find the Canonical URL field where you can enter the URL of the original article — the one you want to point search engines to:  
+
+fill in the canonical URL with Yoast SEO
+Fill in your canonical URL in the advanced section of the Yoast SEO metabox or sidebar
+Yoast SEO will set a self-referencing canonical for you if you don’t set a canonical. This means that the article will point to itself. Learn why self-referencing canonicals are beneficial for SEO.
+
+2.6. Support international audiences
+
+To optimize your site for audiences in several countries or language regions, you’ll need to optimize your content and your technical setup. Let’s start with the content aspects of international SEO.
+
+Doing targeted keyword research and writing fresh content for each audience is crucial. Take items of clothing, for example. An American vest is an entirely different garment from a British vest, a Dutch vest, a French vest, or a Spanish vest… you get the point. We don’t recommend using automated translations. Invest time and resources in proper research and translations to optimize your keywords and copy.
+
+Another important aspect of international SEO is picking the proper domain structure. Generally, a different ccTLD (e.g., www.yoast.de) for every variation is only a good option for huge companies with big budgets. In most cases, subdirectories (e.g., www.yoast.com/de) are the way to go.
+
+Search engines want to display the correct language version of your site to each visitor, whatever country they’re from. To help them, you need to implement hreflang. hreflang is code that tells the search engines what language variations of a page are available and helps prevent duplicate content problems. It’s quite a complex piece of code, but our hreflang guide helps you along the way — or you can take our Multilingual SEO training. This course is part of our Yoast SEO academy that’s free with a Yoast SEO Premium subscription.
+
+2.7. Add Schema.org structured data
+
+Structured data is kind of like a dictionary for search engines. By describing your content in code, you can instantly clarify that particular piece of content. Plus, you can tell who wrote it, who published it, and when on what site. Also, if this article featured recipe, FAQ, or how-to content, you could let search engines know about this. This way, search engines get a better understanding of your site. They can use this to help your site get rich results.
+
+Structured data is essential for WordPress SEO. It used to be hard to add structured data to your site, but we set out to make it easy with structured data in Yoast SEO. Today, we generate the code search engines need to automatically make sense of your site and its connections. You only need to make a couple of choices in Yoast SEO > Site Representation. Select Person if your site is a personal site or Organization if it is a business or professional site. Don’t forget to pick or upload the correct logo or avatar.
+
+That’s not all: you can also quickly build specific types of content pages with our structured data blocks. These blocks work in the block editor, and at the moment, we have two types: FAQs and how-tos. These blocks help you visually build the content while generating valid structured data in the background. Plus, the Schema controls allow you to specify what type of page the one you’re working on. So, you can quickly add structured data to your contact page by picking that specific type.
+
+
+Pick Person or Organization to get Yoast SEO to generate the correct structured data automatically
+3. Optimize your site structure
+
+A solid site structure helps your users and search engines navigate your site. On top of that, it will make clear what pages on your website are most important. Two pillars of a good site structure are organizing your site and internal contextual linking.
+
+3.1. Organize your site
+
+Organizing your site will help you create a navigation path from your homepage to your posts and pages. Adding categories and subcategories will bring order to chaos. Ideally, your site should be organized as such:
+
+
+The ideal site structure should follow a strict hierarchy
+You should always make sure your homepage is straightforward to navigate. Cluttering the homepage with too many options will make your site more difficult to understand. Adding a clear menu and breadcrumbs helps your user navigate your site wherever they are.
+
+3.2. Connect your content with contextual internal linking
+
+Besides organizing your site, you need to link your content within your copy. We call this contextual internal linking because these links always appear within the context of a text. Internal linking is one of the most important aspects of WordPress SEO.
+
+Contextual internal links set up a network of pages, pointing your users to related content. For example, in a post on keyword research, linking to an article on SEO copywriting makes a lot of sense. For search engines, these links provide insight into how pages are related.
+
+Always ensure that the number of links to a page reflects the importance of that page. Our ultimate guides get a lot of links from individual posts about related topics. This helps users and search engines understand that these guides are crucial pillars of our site.
+
+When adding a contextual internal link, make sure the link makes sense within the current page’s context. Moreover, always use anchor texts which accurately describe the page you’re linking to. This gives users and search engines the context to assess whether the link is valid. The internal linking tool in Yoast SEO Premium helps you connect your content by automatically suggesting relevant links.
+
+3.3. Manage your categories and tags
+
+WordPress has two default ways of structuring your content: categories and tags. Categories add hierarchy to your content and group topics broadly. On a website about cooking, pasta could be a category. Tags are non-hierarchical and can be used to describe your post in more detail. Dinner party themes, for example, could be a tag.
+
+When setting up your site structure, pick several main categories. Adding them to your menu can be a good idea, especially if you only have a blog. A different setup might make more sense if you have a blog and several products. Make sure your categories are roughly the same size. If your categories become too big, make subcategories. Your category pages can be great landing pages, especially for ecommerce sites — more on that in our ecommerce SEO guide.
+
+Tags are helpful for users exploring topics, but they are often misapplied. It’s important not to use too many tags and use them more than once or twice. Remember, you want to group your content, not just describe it.
+
+If you want to structure your content differently, WordPress also allows you to create custom taxonomies. Always consider carefully whether your custom taxonomy groups content in a way that makes sense and helps your visitors.
+
+3.4. Manage your archive pages
+
+If you use categories and tags, you will automatically create archive pages. These pages contain a list of the posts and pages within a specific category or tag. Besides categories and tags, there are date-based archive pages and author archives. These archive pages need managing because they cause SEO problems if you don’t.
+
+First, you want to prevent search engines from indexing archive pages that don’t make sense on your site. You can use the Yoast SEO plugin for this. You do this under Yoast SEO → Advanced, where you’ll find the following options on the “Author Archives” tab:
+
+prevent certain archives to end up in search
+Manage your archives in Yoast SEO
+On our site, we’ve disabled the date-based archives, as we don’t use those. Any date-based link will redirect to our homepage because of this setting. We’ve left the author archives untouched, but we have set the subpages of those archives to be noindex, follow by default. This way, you’ll never land on page two of an archive on our site from the search engines.
+
+If your blog is a one-author blog, or you don’t need author archives, use Yoast SEO to disable the author archives. Also, if you don’t think you need a date-based archive: disable it as we have. Even if you’re not using these archives in your template, someone might link to them and thus break your WordPress SEO…
+
+There is one type of archive that is noindex,follow by default in the Yoast SEO plugin: your own internal search function result pages. This is a best practice from Google.
+
+3.4.1. Pagination
+
+If you have many posts on your WordPress site, you might want to think about how your pagination looks and works. Otherwise, your best content is ‘buried’ deep in your site, and users and search engines may struggle to find it. It would help if you also considered customizing how your pagination looks and works to be more helpful for users and search engines.
+
+3.5. Configure your breadcrumbs
+
+You’ll probably want to add breadcrumbs to your posts and pages. Breadcrumbs are the links, usually above the title post, that look like “Home > SEO blog > WordPress SEO“. Breadcrumbs are good for two things:
+
+They allow your users to navigate your site easily.
+They allow search engines to determine the structure of your site more easily.
+These breadcrumbs should link back to the homepage and the post’s category. If the post is in multiple categories, it should pick one.
+
+To get breadcrumb navigation to show you on your pages, you may need to adapt your single.php and page.php files in your theme and include the code for breadcrumbs from the Yoast SEO plugin. You find the settings and instructions on doing that in the Yoast SEO → Advanced → Breadcrumbs section. Also, we have a unique breadcrumbs block for the block editor that makes it easy to drop in breadcrumbs on any page — without writing code.
+
+3.6. Manage your XML sitemaps
+
+You can use XML sitemaps to tell Google and the other search engines that your site has been updated. While WordPress finally has native XML sitemaps, our solution is more powerful. Our WordPress SEO plugin automatically configures your XML sitemaps, so you don’t have to worry about anything. We generate sitemaps for your different post types, including your images, and make sure that it generates and loads quickly.
+
+We intelligently split your sitemaps into smaller bits, so Google only has to fetch one new XML “sub”-sitemap when a post is published.
+
+You can check and manage which types of content, archives, and templates should be included in your XML sitemaps in your Yoast SEO → APIs → XML Sitemaps settings. Content types that are set to not show in search results will be automatically excluded from your XML sitemaps.
+
+Lastly, our XML sitemaps support has a complete API, allowing developers to add or change functionality through their plugins and themes. Our Local SEO, News SEO, and Video SEO extensions (which generate their specific sitemaps) are built on this API. Other plugins frequently develop their solutions on top of our system.
+
+4. Speed up your WordPress website
+
+If your website is slow, you risk frustrating your users. That makes them less likely to engage, browse, convert, or visit again. That, in turn, can make them less likely to share your content, link to your pages, or recommend your brand. In short, speed is an essential part of WordPress SEO, and a huge part of the overall user experience. That means it’s critical to measure and manage your performance — especially for users on mobile or slower connections!
+
+With Google’s Page Experience update, page speed and user experiences are front and center. Offering outstanding performance will continue to become more critical by the day.
+
+4.1. Measure your site speed
+
+Measuring the speed of your site can be confusing. Different tools give different scores and results and sometimes even give conflicting information. That’s why we’ve put together this helpful guide on how to measure your speed — it’ll walk you through the basics of picking the right metrics to use the right tools for the job when it comes to monitoring and diagnosing issues.
+
+4.2. Improve your site speed
+
+Once you’ve identified what and where your bottlenecks are, the next challenge is to make hosting, theme, plugin, and performance tweaks to speed things up.
+
+Page speed optimization is a discipline that spans well beyond WordPress SEO. That means that the most significant opportunities will vary from site to site and from situation to situation. For some sites, the easiest wins might come from changing hosting or utilizing a CDN; for others, it might mean re-assessing their use of plugins or altering how they load CSS and JavaScript.
+
+That doesn’t mean that you can’t get started, though. We’ve put together a guide on some page speed tools and easy wins that you can use to get the ball rolling.
+
+5. Secure your WordPress website
+
+WordPress is the most-used platform for website management in the world. It powers almost 42% of the web (June 2021). While that is awesome, it also means that WordPress is the most targeted platform for hackers. When running a WordPress website, basic security is dealt with by the CMS, but there are things you can do yourselves to make your website more secure.
+
+That starts with your login. The default username in WordPress is admin, so change that first. Otherwise, a hacker’s first guess for your username is too easy. The same goes for your password. Passwords like 123456 and welcome01 are just not enough. Use a password manager like 1Password or LastPass and pick a 20+ character password instead. WordPress also has several plugins for two-factor verification, so adding that to your website is easy as pie as well. Please do it.
+
+Of course, there is more you can do; please read our article detailing WordPress security in a few easy steps. We’ll highlight some of the recommendations below.
+
+5.1. Make regular backups
+
+The next thing we’d like you to do is create regular backups. If your site gets hacked or something else goes wrong — for instance, when updating a plugin or theme —you must revert that change in a heartbeat. Regular backups make sure that this can be done.
+
+In WordPress, there is a wide range of backup options to choose from. Several plugin developers have created excellent software solutions for you, so you don’t have the technical hassle of that backup.
+
+5.2. Harden your setup
+
+Hardening your setup starts with picking the right hosting company for your WordPress website. That’s just the start, as every host will do its best to help you out, but it’ll still be your responsibility to harden your setup. Also, tools like Cloudflare are good friends for any company/website.
+
+An easy first step is to limit login attempts. By limiting the number of times, people can try to log in to your website — closing your login form after five false logins, for example — you are hardening your installation against brute force attacks and other malicious acts targeting that form.
+
+The next thing you need to do is ensure that your WordPress install, including plugins and themes, is always up-to-date. Updates might fix security issues as well. Make sure to check for updates and keep your WordPress installation up-to-date regularly.
+
+Another essential thing to realize is that you deal with security whenever you add a new user or writer to your WordPress install. There’s an article in the WordPress Codex regarding Roles and Capabilities you should read. It comes down to giving permissions only to those who need it when needed and only for the time they need it. There is no need to provide a guest blogger administrative rights to your website, right?
+
+Authentication Keys and Salts work in conjunction to protect your cookies and passwords in transit between the browser and web server. Make sure to change these keys when installing a new WordPress instance.
+
+Another easy fix we’d like to mention is ensuring your template files can’t be edited from the WordPress backend. You can do this in Appearance → Editor. When a hacker gets past your login form, this is the easiest way to add malicious code to your website. Hardening this involves changing your wp-config file.
+
+5.3. Use monitoring and logging
+
+Security is an ongoing process. You must keep a keen eye on any breaches and keep your website as secure as possible. You could put part of your WordPress security in the hands of, for instance, a company like Sucuri. In case of a hack, they’ll fix this asap. You could check your site regularly with their Sitecheck tool for your monitoring. Some plugins can help you secure your WordPress site by, for instance, monitoring files on your server, like WordFence, iThemes, or Sucuri. Pick your plugin of choice as long as you make sure that security is monitored.
+
+It can also be helpful to keep track of everything happening on your websites, like file changes and logged-in users. Several plugins and tools exist, like WP Security Audit Log. Keeping track of these things makes sure that you can find irregularities in your installation and act on these or find what happened when in case of a security issue.
+
+6. Cater to your mobile visitors
+
+Take one look around, and you’ll notice that our mobile devices are becoming the de facto way of browsing the web, even when we’re lying on our couch at home. But we don’t visit mobile websites — we visit websites. See your mobile and desktop site as one entity. You, as a website owner, need to cater to your visitors.
+
+Some years ago, the mobile market share surpassed the desktop market share. If you are only optimizing for desktop visitors, you are not optimizing for most of your visitors. Of course, it depends on your specific niche since those numbers could be different. Google Analytics can give you the exact numbers for your site.
+
+With a market share like this, there is no way you can consider your mobile website an ‘extra’. It’s time for mobile SEO.
+
+6.1. Make sure your theme is mobile-friendly
+
+After making sure that your site is fast, make sure your website, or your theme, is mobile-friendly. Making your website mobile-friendly starts with ensuring the links are not too close together and buttons are easily clickable. Your font should be consistent and not too small, and your images are not too big, both in file size and dimensions.
+
+We’d like to highlight two specific mobile theme optimizations below.
+
+6.1.1. Use a responsive design
+
+In 2022, having a responsive design is a no-brainer. Responsive design means that the design of your website adapts to the screen size your visitor is using. You can do this by using specific CSS media queries. You have to address particular ranges of screen widths and plan for those. Most WordPress themes are now responsive.
+
+Depending on the part of the world you are targeting, no, how fast their mobile internet is, you might want to change a couple of things. Think about how you use images on your site. Are you using any text enhancements or font variations that might hinder the excellent performance of the mobile website? Responsive design helps you build a more focused website. That brings us to the second optimization.
+
+6.1.2. Prioritize what’s important to mobile users
+
+Take a step back and look at your website: what do your users want to do here? Define the four to six main tasks your user performs on your website and focus on these. Maybe even give the most crucial task a big fat call-to-action button.
+
+Here’s an example: If you have a local business, the two main tasks might be calling you or finding the directions to your business. That means you could add these as a unique mobile menu, for instance, some visible all the time. Focus on your visitor’s main tasks and make their life as easy as possible. How to find these top tasks? Ask your visitors! Also, check Google Analytics for the most visited pages on your mobile website. More about Analytics further down this article.
+
+7. Analyze and improve your performance
+
+A good SEO campaign relies not only on implementing changes but also on measuring the impact of those changes, seeing what works, and doing more of that. Google has developed two unique tools to analyze your website’s results and identify new opportunities that you could focus on in the future.
+
+The first one for analyzing results is Google Analytics. Adding Google Analytics to your website ensures all user data will be stored in your account. You can, for instance, check how many visits your pages get, how many of your visitors convert, how many visitors immediately leave your website after landing on a specific page, and much more. Within Google Analytics, you can see how visitors behave on your website. Here’s how to track your SEO with Google Analytics.
+
+The second tool analyzes how your website performs and how visitors find you in the search engine. That tool is Google Search Console. Exporting and sorting through your search queries and impression data makes it easy to identify opportunities where you could focus on improving clickthrough rates, content, and/or rankings.
+
+7.1. Set up and integrate Google Analytics
+
+To start with Google Analytics, you need to create an account. Click the ‘Start for free’ button to start. To set up your account, you must first add an Account Name. This could be your company name. However, when you add other websites to your account, we recommend choosing a more generic Account Name. Also, you can always change your Account Name later when you want to.
+
+After setting up your account, it’s time to add a property: the website you want to add. Insert the Website Name and the Website URL. Make sure you add the precise URL: http:// or https:// and with or without www for collecting the correct data.
+
+
+Create a new account in Google Analytics
+After setting up your property, you can choose to enable some of the data-sharing settings. Each data sharing option gives you a clear explanation of what you will be sharing, allowing it.
+
+Now you’re almost ready to go! The last step to connecting your website to your new Google Analytics account is adding the tracking code to your website. After successfully creating your account and adding a new property, you’ll see this screen with your Google Analytics tracking code on top:
+
+
+Copy the tag to your site
+This tag needs to be added to your website. The easiest way to do this within WordPress is by installing a Google Analytics plugin such as the MonsterInsights Plugin for WordPress. By installing this plugin, you don’t need to touch the actual code of your website to connect with Google Analytics. Install and activate the plugin, insert your tracking ID, and set! You can also use Google’s Site Kit WordPress plugin to get data from Analytics and Search Console in your backend.
+
+For more technical readers, it’s also possible to add the tag manually to every web page’s head or add the tag to Google Tag Manager.
+
+Your website is connected to Google Analytics; it will start collecting your users’ data. Start clicking around to see what can be found within the data, or read one of our blog posts about Google Analytics for helpful tips.
+
+7.2. Set up your Google Search Console account
+
+The second tool we think is essential to set up is Google Search Console. We recommend going through all steps, and you will be all set! In brief, these are the steps you’ll need to follow:
+
+Create or sign in to your Google Search Console account.
+Click ‘Add a property’ under the search drop-down.
+Enter your website URL in the box and click ‘Continue’.
+Verify your website — within the Yoast SEO plugin; you can easily copy and paste the meta tag to make it work.
+After connecting your website to Google Search Console, it will start collecting data about the performance of your website.
+
+7.3. Other useful tools
+
+Of course, there are plenty of other valuable tools to get insights into your website and find SEO opportunities. Everyone has their favorite tools, so it’s important to start playing with different tools to find out what tool brings you what you need most.
+
+There are all-in-one SEO tools that give you a complete overview of your performance, and there are more in-depth tools that give you more specific data. Think about site speed tools, duplicate content tools, analysis tools, keyword research tools, etc.
+
+Some tools we use besides Google Analytics and Google Search Console:
+
+Microsoft Clarity
+
+Microsoft Clarity is another tool that provides valuable insights into the behavior of your website’s visitors. Its features, such as the session replays or the heat map, can help you understand how your audience interacts with your website. That information is precious if you want to improve your site’s user experience! On the Microsoft Clarity dashboard, you’ll also find information on session counts, total users, page view details, etc.
+
+Microsoft Bing Webmaster Tools
+
+Within the Source/Medium section of Google Analytics, you can see what percentage of your traffic is coming from Bing. When this is a sufficient amount of traffic, you might want to create a Bing Webmaster Tools account. Microsoft Bing Webmaster Tools is the Google Search Console variant for Microsoft Bing. It shows you your site’s health and performance in the Bing search results.
+
+Semrush
+
+Semrush is another internet marketing and SEO suite that does incredible stuff. In addition, Semrush powers the related keyphrase feature in Yoast SEO. Thanks to this feature, you can easily find powerful keyphrases to rank for.
+
+Google Lighthouse
+
+Google Lighthouse is a Chrome extension that you can download for free. With the Lighthouse tool, you can quickly generate a report with Performance, Progressive Web App, Accessibility, Best Practices, and SEO scores. This report will give you a quick overview of how your site is doing. Plus, you can immediately start working on the areas that need attention. You can also use the web-based version on web.dev/measure. Very helpful if you are working to improve your Page Experience scores.
+
+Hotjar
+
+To get insights into how your visitors move, scroll and click on your web pages, you could use a tool like Hotjar. This user research tool can also add polls or surveys to your site to start doing research. You can try it for free, and the paid packages have competitive prices.
+
+Interested in more valuable tools? Check our list of favorite SEO tools here!
+
+8. Promote your site
+
+Thanks to WordPress SEO, you put a lot of time and effort into your site’s content and ensure readers can find it via search engines. But there are other ways to get people to visit your WordPress site and read your posts. But how do you get and grow such an audience? Simply writing posts and putting these out there won’t do the trick: you must promote your site!
+
+8.1. Encourage engagement
+
+It’s always fun to interact with your readers, but how do you get them to engage? We mean all the ways people can interact with your post with engagement. It could be leaving a comment, sharing it on social media, or taking action.
+
+But how do you get people to engage? You can always ask them! Write engagingly, and then ask your readers for their opinion. Then respond to these comments to keep the conversation going and build a relationship with your readers.
+
+Engagement also benefits WordPress SEO, showing that your site is alive and active. If you want to dive deeper into blog engagement, you can read our post on how you can increase blog engagement.
+
+8.2. Grow your reach
+
+Social media is the best way to reach and grow your blog’s audience. You should be active on the social media channels where your (potential) audience is present. Facebook, Instagram, Pinterest, and Twitter are examples of popular social media. It might be a lot to decide on, so you can find out more in our blog post on social media strategy: where to begin?
+
+8.3. Build a mailing list
+
+In addition to using social media to promote your blog, investing in a newsletter is often a good idea. Let people sign up for it and send emails with your latest blog posts and other fun facts.
+
+Ensure that you offer a subscribe field beneath your posts and other visible places on your website. Make sure that your newsletter is mobile-friendly. But, most of all, make sure your newsletter is truly something special!
+
+8.4. Amplify your content
+
+The number of blog posts published daily is enormous, so it’s becoming much harder to stand out. Your articles are likely to get lost in the vast sea of content. To help your content reach its full potential, you need to amplify it.
+
+If your content is original and well-structured, you’re probably able to reach new audiences. Look at how you can get new audiences beyond your organic reach.
+
+Maybe advertising on Facebook or Instagram might be a good way to reach new audiences for your content? Analyze what channels you already use and decide where you can do more to broaden your audience.
+
+9. Conclusions
+
+This guide gives you a lot of stuff you can do on WordPress SEO for your site. It goes from technical SEO tips to conversion tips, content tips, conversation tips, and a lot in between. There’s a catch, though: if you want to rank for highly competitive terms, you’ll have to do most of it and create great and compelling content.
+
+You compete with every other website and business for attention, visitors, and outcomes. That means you have to put in a lot of hard work and keep your site SEO fit. Have you neglected your SEO for a while? Don’t worry; it can happen to the best of us! Check Marieke’s post for excellent advice about getting your SEO back on track.
+
+If you want to keep updated on the latest news about WordPress, SEO, and our plugins, you can subscribe to our newsletter and stay one step ahead of the competition!
